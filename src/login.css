@@ -1,0 +1,21 @@
+.login {
+  display: grid;
+  height: 100vh;
+  background-color: black;
+  place-items: center;
+  background-size: cover;
+  background-repeat: repeat-y;
+}
+.login > img {
+  /* width:fit-content; */
+  height: 200px;
+  object-fit: contain;
+}
+.login > a {
+  text-decoration: none;
+  background-color: #1db954;
+  padding: 15px 30px;
+  border-radius: 99px;
+  color: white;
+  font-weight: 700;
+}
